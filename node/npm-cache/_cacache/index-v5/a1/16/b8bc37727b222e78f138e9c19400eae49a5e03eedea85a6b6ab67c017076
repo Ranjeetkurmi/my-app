@@ -1,0 +1,2 @@
+
+dc542a036fb53218f02ecef3ad10314cbfbf81ce	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/fs-extra/-/fs-extra-11.2.0.tgz","integrity":null,"time":1716016537801,"size":"0","metadata":{"time":1716016537801,"url":"http://registry.npmjs.org/fs-extra/-/fs-extra-11.2.0.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 18 May 2024 07:15:40 GMT","location":"https://registry.npmjs.org/fs-extra/-/fs-extra-11.2.0.tgz","vary":"Accept-Encoding"},"options":{"compress":true},"status":301}}

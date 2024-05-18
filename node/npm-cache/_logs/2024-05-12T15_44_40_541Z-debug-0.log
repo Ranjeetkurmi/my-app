@@ -1,0 +1,57 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\ranjkurm\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@9.6.4
+2 info using node@v20.13.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Users\ranjkurm\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:c:\Learning\udemy course\React JS\my-app\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:C:\Users\ranjkurm\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\ranjkurm\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 10ms
+17 timing npm:load:configload Completed in 10ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm view @testing-library/react description dist-tags.latest homepage version time
+21 verbose argv "view" "--json" "--" "@testing-library/react" "description" "dist-tags.latest" "homepage" "version" "time"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing config:load:flatten Completed in 3ms
+24 timing npm:load:display Completed in 5ms
+25 verbose logfile logs-max:10 dir:c:\Learning\udemy course\React JS\my-app\node\npm-cache\_logs\2024-05-12T15_44_40_541Z-
+26 verbose logfile c:\Learning\udemy course\React JS\my-app\node\npm-cache\_logs\2024-05-12T15_44_40_541Z-debug-0.log
+27 timing npm:load:logFile Completed in 10ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 29ms
+31 silly logfile done cleaning log files
+32 timing command:view Completed in 70129ms
+33 verbose type system
+34 verbose stack FetchError: request to http://registry.npmjs.org/@testing-library%2freact failed, reason: getaddrinfo ENOTFOUND genproxy.amdocs.com
+34 verbose stack     at ClientRequest.<anonymous> (C:\Users\ranjkurm\AppData\Roaming\npm\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+34 verbose stack     at ClientRequest.emit (node:events:519:28)
+34 verbose stack     at onerror (C:\Users\ranjkurm\AppData\Roaming\npm\node_modules\npm\node_modules\agent-base\dist\src\index.js:117:21)
+34 verbose stack     at callbackError (C:\Users\ranjkurm\AppData\Roaming\npm\node_modules\npm\node_modules\agent-base\dist\src\index.js:136:17)
+34 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+35 verbose cwd c:\Learning\udemy course\React JS\my-app
+36 verbose Windows_NT 10.0.19044
+37 verbose node v20.13.1
+38 verbose npm  v9.6.4
+39 error code ENOTFOUND
+40 error syscall getaddrinfo
+41 error errno ENOTFOUND
+42 error network request to http://registry.npmjs.org/@testing-library%2freact failed, reason: getaddrinfo ENOTFOUND genproxy.amdocs.com
+43 error network This is a problem related to network connectivity.
+43 error network In most cases you are behind a proxy or have bad network settings.
+43 error network
+43 error network If you are behind a proxy, please make sure that the
+43 error network 'proxy' config is set properly.  See: 'npm help config'
+44 verbose exit 1
+45 timing npm Completed in 70181ms
+46 verbose code 1
+47 error A complete log of this run can be found in: c:\Learning\udemy course\React JS\my-app\node\npm-cache\_logs\2024-05-12T15_44_40_541Z-debug-0.log
